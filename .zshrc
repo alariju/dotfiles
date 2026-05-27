@@ -13,6 +13,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias tls="tmux list-sessions"
 alias tnew="tmux new-session -s"
 alias tkill="tmux kill-session -t"
+alias tatt="tmux attach-session -t"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
